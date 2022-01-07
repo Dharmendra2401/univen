@@ -1,0 +1,218 @@
+@media only screen and (max-width: 1198px) {
+    .step-count li::after{
+        left: 3px!important;}
+    .getbutton::before{
+        
+
+    }
+    .btn {font-size: 14px;}
+}
+    
+
+    @media only screen and (max-width: 998px) {
+        .owlbutton {
+            margin-left: 0px;
+        }
+        .section-content img {margin-right: 10px;
+            margin-bottom: 6px;}
+        .social-icons span{margin-left:5px;}
+        .owl-carouselone div.owl-nav button.owl-prev{margin-left: 15px;}
+        .owl-carouselone div.owl-nav button.owl-next{margin-right: 15px;}
+        #faqAccordion{padding-right: 0px;}
+        .accordion-toggle.question-toggle.collapsed::after{
+            right: 30px;
+        }
+        
+        .bg_heading {
+            line-height: initial;
+        }
+        .logo h1{
+            margin-top: 20px;
+        }
+       
+            .header-left ul{width: 100%;}
+        
+        
+        
+        .header{height: auto;}
+        .owl-carouselone .owl-item img{display: initial!important;}
+        .address-location{text-align: center;}
+        .fullsize-video-bg { height: 100%;}
+        .fullsize-video-bg:after {height: 100%;}
+        .fullsize-video-bg .inner{height: 100%;}
+        .fullsize-video-bg .inner > div{padding: 1% 1em;}
+        .owlbutton hr{
+            padding-bottom: 16px;
+            position: inherit;
+            left:0px;
+        }
+        .owlbutton div.owl-nav{ position: initial;}
+        .owlbutton div.owl-nav button.owl-next{ position: absolute;
+            right: 0px;
+            top: 200px;
+        }
+        .owlbutton div.owl-nav button.owl-prev{ position: absolute;
+                left: 0px;
+                top: 200px;
+        }
+        
+        .owlbutton div.item{height: auto;margin-left: 5px;}
+        .box-shadowssss h2.heading-title{text-align: center;padding-top:0px;}
+        .ques-image img{width:100%;}
+        .center-logo a img{width:100%;}
+        .center-logo{display: block;}
+        .ulcal li .section-content{display: none;}
+        .ulcal li.active .section-content{display: block;height: auto;}
+        .user-top{margin-bottom: 20px;}
+        .ulcal li.active {
+            width: 100%;
+            background: #fff;
+            cursor: default;
+            border-radius: 10px;
+            height: auto;
+        }
+        .ulcal{height:auto;}
+        .ulcal li {
+            color: rgb(109 109 109);
+            width: 100%;
+            height: 50px;
+            padding: 12px 0px;
+            margin: 8px 0px;
+            cursor: pointer;
+            box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 16%);
+        }
+        .ulcal {
+            display: block;
+        }
+        .section-content img {
+            /* float: left; */
+            width: 35%;
+            display: inline-block;
+            border-radius: 5px;
+            display: none;
+        }  
+        .ulcal li.active img {
+            display: block;
+            width: 148px;
+
+        }      
+        .ulcal li .section-title h2 {
+            margin: 0;
+            word-break: break-all;
+            /* text-align: center; */
+            font-size: 20px;
+            padding-top: 7px;
+            width: 100%;
+            display: table-cell;
+            vertical-align: middle;
+            display: inline;
+            text-transform: uppercase;
+        }
+        .navbar-default .navbar-nav>li>a{ padding: 10px 20px;}
+        .step-count li::after{
+            left: 8px;}
+        .getbutton::before{
+          
+        }
+        .btn {
+            padding: 0.3rem 1em;
+            letter-spacing: 2px;
+            border-radius: 3px!important;
+            cursor: pointer;
+            width: 117px;
+           height: auto;
+           margin-bottom: 10px;
+        }
+    
+      }
+      @media only screen and (max-width: 678) {
+
+        .getbutton::before{
+            left: 100px;
+        }
+        #faqAccordion{padding-right: 0px;}
+      }
+
+@media only screen and (max-width: 720px) {
+    .panel-title.faq{
+        padding-right: 10px;
+    }
+    
+    
+    #faqAccordion{padding-right: 0px;}
+    .accordion-toggle.question-toggle.collapsed::after{
+        top: 23px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    }
+    .btn {font-size: 14px;}
+    .panel-heading.accordion-toggle.question-toggle::after{    
+        top: 23px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;}
+    .panel-heading{position: relative;}
+    h4{
+        font-size: 13px!important;
+    }
+    h3{
+        font-size: 16px!important;
+    }
+    h1{
+        font-size: 24px!important;
+    }
+    h2{
+        font-size: 22px!important;
+    }
+    p{
+        font-size: 13px!important;
+    }
+    .btn{
+        font-size: 13px;
+    }
+    .step-count li {
+    margin-bottom: 60px;
+     height: auto;
+    text-align: center;
+    z-index: 5;
+    background: white;
+    box-shadow: 0px 0px 5px 0px #0000004d;
+    border-radius: 5px;
+    padding: 10px;
+    }
+    .step-count li span{
+        float: none;
+        display: inline-block;
+        width: 80px;
+        margin-top: -20px;
+        margin-right: 0px;
+        height: 76px;
+        position: relative;
+        top: -28px;
+    }
+    .step-count li::after {
+      display:none;
+    }
+    .getbutton{box-shadow: none!important;
+        width: 100%;
+        padding: 0px!important;
+        margin: 0px;
+    }
+    .getbutton::before{display: none;}
+    
+  }
+  @media only screen and (max-width: 764px) {
+    .logo h1 {
+        margin-top: 45px;
+    }
+    .header-right ul{float:none;}
+    .header-right {text-align: center;border-top: 1px solid white;}
+    .header-right ul li a {font-size: 11px;}
+    .header-left {text-align: center;}
+  }
+
+ 
+  

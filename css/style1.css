@@ -1,0 +1,107 @@
+.form-horizontal .form-group {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+div.alert-success {
+    color:green;
+}
+div.alert-danger {
+    color:red;
+}
+.error{
+    color:red;
+}
+.form-group {
+    margin-bottom: 30px;
+}
+.form-group {
+    position: relative;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-control {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 400px;
+}
+
+.top-nav li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans";
+    font-weight: normal;
+}
+p{
+    font-family: "Open Sans";
+    font-size: 13px;
+}
+.activity-list {
+    
+    list-style: none outside none;
+    margin: 3em 0 0;
+    padding: 0;
+    width: 100%;
+}
+.activity-icon{
+    float: left;
+    width: 5%;
+}
+.activity-text{
+    width: 95%;
+    float: left;
+}
+.activity-list li{
+    margin-top: 5px;
+    padding-left: 20px;
+    width: 100%;
+    float: left;
+    border-bottom: 1px dotted #ccc;
+   
+}
+#page-loader {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 10000;
+  display: none;
+  text-align: center;
+  width: 100%;
+  opacity: 0.8;
+  padding-top: 25px;
+  height: 1450px;
+  
+}
+
+#menu{
+    display: none; right: 70px; margin-top:10px; padding: 5px; border: 1px solid #999; background: grey; color: #FFF; position: absolute; width: 126px;
+}
+#menu li{
+    margin: 10px;
+    border-bottom: 1px solid white;
+}
+#menu li a{
+    color:#fff;
+    text-decoration: none
+}
