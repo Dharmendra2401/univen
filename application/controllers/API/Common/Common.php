@@ -59,8 +59,10 @@ class Common extends REST_Controller
         $this->response($response, REST_Controller::HTTP_NOT_FOUND);
     }
     public function emailbody($sendfrom, $to, $subject, $message){
-        $mailSendStatus= sendmails($sendfrom, $to, $message, $subject);
-        return $mailSendStatus;
+        // $mailSendStatus= sendmails($sendfrom, $to, $message, $subject);
+        // return $mailSendStatus;
+        echo "hello";
+        exit();
     }
     public function asp_emp_id(){
 		$getcat=$this->Api_model->get_asp_emp_id();
